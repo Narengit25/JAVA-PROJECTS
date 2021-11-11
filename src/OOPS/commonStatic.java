@@ -7,8 +7,7 @@ public class commonStatic {
     static int totalAmount = 2000;
     int totalDuration ;
     int dateOfSubmission;
-
-
+    
     public static void main(String[] args) {
         commonStatic cs = new commonStatic("Prosper",1600, 20 );
         cs .show();
@@ -24,8 +23,12 @@ public class commonStatic {
         this.dateOfSubmission = dateFromTo;
     }
     void show(){
-        System.out.println("Project: " + projectName + "\n" + "School: " + School + "\n" + "TotalBudget: " +
-                totalAmount + "\n" + "TotalDuration: " + totalDuration + "\n" + "DateOfSubmission: " + dateOfSubmission);
+        System.out.println("Project: " +
+                projectName + "\n" + "School: "
+                + School + "\n" + "TotalBudget: " +
+                totalAmount + "\n" + "TotalDuration: " +
+                totalDuration + "\n" + "DateOfSubmission: "
+                + dateOfSubmission);
     }
 
 }
